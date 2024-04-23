@@ -3,10 +3,7 @@
 from asyncio import run
 from time import time
 
-""" 2. Measure the runtime 
-arguments that measures the total execution time
-for wait_n(n, max_delay)
-"""
+""" 2. Measure the runtime """
 
 wait_n = __import__('1-concurrent_coroutines').wait_n
 
